@@ -6,9 +6,9 @@ jobs:
  CICDjob:
    runs-on: windows-latest
    steps:
-    - name: Clone the repo on ubuntu server
+    - name: Clone the repo on windows server
       uses: actions/checkout@v4
-    - name: Install Java and maven on ubuntu server
+    - name: Install Java and maven on windows server
       uses: actions/setup-java@v4
       with:
        distribution: 'temurin'
